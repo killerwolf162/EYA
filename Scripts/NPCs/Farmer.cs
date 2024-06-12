@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.AI;
 
 public class Farmer : MonoBehaviour
 {
@@ -48,6 +49,16 @@ public class Farmer : MonoBehaviour
         start_moving();
     }
 
+    public void salute()
+    {
+        StartCoroutine(Salute());
+    }
+
+    public void idle()
+    {
+        anim.SetInteger("Animation_int", 0);
+    }
+
     public IEnumerator start_moving()
     {
         this.transform.position += new Vector3(0.2f, 0, 0);
@@ -61,6 +72,15 @@ public class Farmer : MonoBehaviour
 
         First_Petition.Invoke();
         StopCoroutine(wait());
+    }
+
+    public IEnumerator Salute()
+    {
+        salute();
+        anim.SetInteger("Animation_int", 6);
+        yield return new WaitForSeconds(2);
+        idle();
+        StopCoroutine(Salute());
     }
 
 
