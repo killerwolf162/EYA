@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -74,15 +75,67 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Transition_to_Questioning());
     }
 
+    public void StartExecutionTransition()
+    {
+        StartCoroutine(Transition_to_Execution());
+    }
+
+    public void StartFineTransition()
+    {
+        StartCoroutine(Transition_to_Fine());
+    }
+
+    public void StartFreeToGoTransition()
+    {
+        StartCoroutine(Transition_to_FreeToGo());
+    }
+
     private IEnumerator Transition_to_Questioning()
     {
         transition_image.enabled = true;
-        Camera_Transition.Invoke();
+        Camera_Transition.Invoke();      
         yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(1);
         Questioning_Setup.Invoke();
         cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
         cameras = cameras.OrderBy(o => o.name).ToList();
         StopCoroutine(Transition_to_Questioning());
+    }
+
+    private IEnumerator Transition_to_Execution()
+    {
+        transition_image.enabled = true;
+        Camera_Transition.Invoke();
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(2);
+        Questioning_Setup.Invoke();
+        cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
+        cameras = cameras.OrderBy(o => o.name).ToList();
+        StopCoroutine(Transition_to_Questioning());
+    }
+
+    private IEnumerator Transition_to_Fine()
+    {
+        transition_image.enabled = true;
+        Camera_Transition.Invoke();
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(3);
+        Questioning_Setup.Invoke();
+        cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
+        cameras = cameras.OrderBy(o => o.name).ToList();
+        StopCoroutine(Transition_to_Questioning());
+    }
+
+    private IEnumerator Transition_to_FreeToGo()
+    {
+        transition_image.enabled = true;
+        Camera_Transition.Invoke();
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(4);
+        Questioning_Setup.Invoke();
+        cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
+        cameras = cameras.OrderBy(o => o.name).ToList();
+        StopCoroutine(Transition_to_FreeToGo());
     }
 
     private void SwapScene()
