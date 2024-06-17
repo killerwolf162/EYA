@@ -44,6 +44,7 @@ public class SceneSwapper : MonoBehaviour
 
     private IEnumerator ExecutionTransition()
     {
+        transition_image.enabled = true;
         while (newColor.a < 1)
         {
             Debug.Log(newColor.a);
@@ -63,6 +64,7 @@ public class SceneSwapper : MonoBehaviour
     }
     private IEnumerator FineTransition()
     {
+        transition_image.enabled = true;
         while (newColor.a < 1)
         {
             newColor.a += 0.005f;
@@ -80,6 +82,7 @@ public class SceneSwapper : MonoBehaviour
     }
     private IEnumerator FreeToGOTransition()
     {
+        transition_image.enabled = true;
         while (newColor.a < 1)
         {
             newColor.a += 0.005f;

@@ -140,13 +140,11 @@ public class GameManager : MonoBehaviour
 
     private void SwapScene()
     {
-        cameras[0].GetComponentInParent<AudioListener>().enabled = false;
         Destroy(cameras[0]);
         //cameras[0].enabled = false;
         cameras.Remove(cameras[0]);
         scenes.Remove(scenes[0]);
         cameras[0].enabled = true;
-        cameras[0].GetComponentInParent<AudioListener>().enabled = true;
     }
 
 }
