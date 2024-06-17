@@ -10,9 +10,11 @@ public class AnimationManager : MonoBehaviour
     private Color color;
     public Image image;
     public AudioSource audioSource;
+    private SceneSwapper sceneSwapper;
 
     private void Start()
     {
+        sceneSwapper = GameObject.FindObjectOfType<SceneSwapper>();
         everyoneCrouch.Invoke();
     }
 
@@ -21,8 +23,20 @@ public class AnimationManager : MonoBehaviour
         if(image.color.a >= 1)
         {
             audioSource.enabled = true;
+            loadEndScene();
         }
     }
 
+    private void loadEndScene()
+    {
+        StartCoroutine(waitBeforeEndScene());
+    }
+
+    private IEnumerator waitBeforeEndScene()
+    {
+        yield return new WaitForSeconds(3);
+        sceneSwapper.loadEndArea();
+
+    }
 
 }

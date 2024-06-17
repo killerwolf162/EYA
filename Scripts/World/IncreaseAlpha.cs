@@ -11,6 +11,7 @@ public class IncreaseAlpha : MonoBehaviour
 
     private void Start()
     {
+        sceneSwapper = GameObject.FindObjectOfType<SceneSwapper>();
         newColor.a = 0;
     }
     public void increase_Alpha()
@@ -20,6 +21,7 @@ public class IncreaseAlpha : MonoBehaviour
 
     public IEnumerator increaseAlpha()
     {
+        transition_image.enabled = true;
         while (newColor.a < 1)
         {
             newColor.a += 0.005f;
@@ -30,6 +32,10 @@ public class IncreaseAlpha : MonoBehaviour
         if (newColor.a >= 1)
         {
             yield return new WaitForSeconds(1);
+            if(sceneSwapper != null)
+            {
+                sceneSwapper.loadEndArea();
+            }
             StopAllCoroutines();
         }
         yield return null;

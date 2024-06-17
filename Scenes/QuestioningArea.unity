@@ -3811,8 +3811,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Then I tried raising my voce but still no response, he just rode past me.
-    That got me to angry, I admit, and rushed over and pulled his horses reins.
+  m_text: Then I tried raising my voice but still no response, he just rode past
+    me. That got me to angry, I admit, and rushed over and pulled his horses reins.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5004,8 +5004,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I understand that you are anxious. Do not worry about it, I'm not going
-    to do anything of the sort.
+  m_text: I understand that you are anxious. Do not worry, I'm not going to do anything
+    of the sort.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5314,8 +5314,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'As I assume you already know, a county is a part of a larger duchy which
-    is a part of your kingdom. '
+  m_text: 'As I assume you already know, a county is a part of a larger duchy. Which,
+    in turn, is a part of your kingdom. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6523,8 +6523,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You asked who the accused is? He is THAT knight that saved the day. If
-    he wouldve failed, your father would have been dead before you could be born.....
+  m_text: 'You asked who the accused is? He is THAT knight that saved the day. If
+    he would''ve failed, your father would''ve been dead before you could be born..... '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12497,8 +12497,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Sire, everyone is positioned so you can talk to them privately. The lord's
-    son is located in the main hall, the accused stands by the staircase, the eyewitness
-    stands by the door towards the garden.
+    son is located in the main hall, the accused stands by the staircase on the right,
+    the eyewitness stands by the door towards the garden.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14064,7 +14064,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your father, who is king at the time, seeing no other way of victory bets
+  m_text: Your father, who was king at the time, seeing no other way of victory bets
     it all on this single knight. And somehow, like a true miracle, the knight succeeds
     in slaying the enemy general and routing his army.
   m_isRightToLeft: 0
@@ -20430,7 +20430,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What do you mean, I wouldnt be king? And why would it have been our biggest
+  m_text: What do you mean, I wouldn't be king? And why would it have been our biggest
     defeat? The history books tell us what a sound victory it was..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -23345,7 +23345,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: As you know, the battle of Bloodylake was the greatest battle our kingdom
-    won, but couldve easily been its worse defeat.
+    won, but could've easily been its worse defeat.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -30519,7 +30519,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Unfortunatly I dont know much about him Sire.
+  m_text: Unfortunatly I don't know much about him Sire.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32934,7 +32934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bloodylake? I've heard of the battle... But I didnt know there was a person
+  m_text: Bloodylake? I've heard of the battle... But I didn't know there was a person
     named after it.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -38971,7 +38971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1197345871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40465,7 +40465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I know that he is the son of a powerfull count, but other than that I dont
+  m_text: I know that he is the son of a powerfull count, but other than that I don't
     know who he is...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -45972,10 +45972,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 14.561823
-  MaxDistance: 500
+  MinDistance: 2.5329762
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -45987,6 +45987,69 @@ AudioSource:
       value: 1
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.21259993
+      value: 0.61370933
+      inSlope: -1.8480605
+      outSlope: -1.8480605
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5794631
+      value: 0.22535062
+      inSlope: -0.54473805
+      outSlope: -0.54473805
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18341568
+    - serializedVersion: 3
+      time: 0.7855312
+      value: 0.14152208
+      inSlope: -0.5604757
+      outSlope: -0.5604757
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.85076946
+      value: 0.108657934
+      inSlope: -0.62468207
+      outSlope: -0.62468207
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8545946
+      value: 0.07303573
+      inSlope: -0.5151299
+      outSlope: -0.5151299
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.50134206
+    - serializedVersion: 3
+      time: 0.87861985
+      value: 0.104915716
+      inSlope: -1.0933586
+      outSlope: -1.0933586
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.91491807
+      value: 0.07308815
+      inSlope: -0.519186
+      outSlope: -0.519186
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -46008,7 +46071,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -46056,7 +46119,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392383174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.45, y: 0.49, z: -15.1}
+  m_LocalPosition: {x: -17.58, y: -4.69, z: -0.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46727,7 +46790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Regarding his personality, he is arogant and spoiled. Most commoners dont
+  m_text: Regarding his personality, he is arogant and spoiled. Most commoners don't
     like him, and he has enemies among the lower nobility.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -52162,8 +52225,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IF not for the exploits of that man, on that day. You wouldnt be king right
-    now, Sire...
+  m_text: IF not for the exploits of that man, on that day. You wouldn't be king
+    right now, Sire...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -54246,7 +54309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: When I asked the young lord politely about it, but I didnt get a response.
+  m_text: When I asked the young lord politely about it, but I didn't get a response.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -59371,8 +59434,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I rushed to him to make sure he wasnt hurt but he immediately hounded his
-    guards on me.
+  m_text: I rushed to him to make sure he wasn't hurt but he immediately hounded
+    his guards on me.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -65669,7 +65732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2269104925895263484, guid: 711e95c13b8abca4abda4aac0dca4a7d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.43
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 2269104925895263484, guid: 711e95c13b8abca4abda4aac0dca4a7d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -65677,7 +65740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2269104925895263484, guid: 711e95c13b8abca4abda4aac0dca4a7d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -27.094
+      value: -25.93
       objectReference: {fileID: 0}
     - target: {fileID: 2269104925895263484, guid: 711e95c13b8abca4abda4aac0dca4a7d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -68834,7 +68897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I wouldnt be able to say Sire, I do not know the full story.
+  m_text: I wouldn't be able to say Sire, I do not know the full story.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

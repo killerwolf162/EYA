@@ -14,6 +14,21 @@ public class SceneSwapper : MonoBehaviour
         newColor.a = 0;
     }
 
+    public void loadMainArea()
+    {
+        SceneManager.LoadScene("Main_Scene");
+    }
+
+    public void loadEndArea()
+    {
+        SceneManager.LoadScene("EndScene");
+    }
+
+    public void quitGame()
+    {
+        Application.Quit();
+    }
+
     public void loadExecution()
     {
         StartCoroutine(ExecutionTransition());

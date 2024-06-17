@@ -95,7 +95,7 @@ public class GameManager : MonoBehaviour
         transition_image.enabled = true;
         Camera_Transition.Invoke();      
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         Questioning_Setup.Invoke();
         cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
         cameras = cameras.OrderBy(o => o.name).ToList();
@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
         transition_image.enabled = true;
         Camera_Transition.Invoke();
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         Questioning_Setup.Invoke();
         cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
         cameras = cameras.OrderBy(o => o.name).ToList();
@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
         transition_image.enabled = true;
         Camera_Transition.Invoke();
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
         Questioning_Setup.Invoke();
         cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
         cameras = cameras.OrderBy(o => o.name).ToList();
@@ -131,7 +131,7 @@ public class GameManager : MonoBehaviour
         transition_image.enabled = true;
         Camera_Transition.Invoke();
         yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
         Questioning_Setup.Invoke();
         cameras.AddRange(GameObject.FindObjectsOfType<Camera>());
         cameras = cameras.OrderBy(o => o.name).ToList();
